@@ -7,9 +7,9 @@ The focus was on the entirety of music streaming data from 2020.  Given 'Artist'
 Then connecting to Spotify's API, I collected the artist metadata (i.e. associated genres) to sum the total time spent listening to particular genres.
 
 See the individual notebooks for source code and more details:
-1. ['spotifyData_EDA.ipynb'](spotifyData_EDA.ipynb)(initial parsing of the data and summation of streams)
-2. ['spotify_API.ipynb'](spotify_API.ipynb) (connecting to Spotify API using spotiPy to collect artist genres - you'll need an authentication by creating a dev. account https://developer.spotify.com/)
-3. ['genre_heatmap.ipynb'](genre_heatmap.ipynb) (source code for custom formatting of the seaborn heatmap plot)
+1. ['spotifyData_EDA.ipynb'](./spotifyData_EDA.ipynb)(initial parsing of the data and summation of streams)
+2. ['spotify_API.ipynb'](./spotify_API.ipynb) (connecting to Spotify API using spotiPy to collect artist genres - you'll need an authentication by creating a dev. account https://developer.spotify.com/)
+3. ['genre_heatmap.ipynb'](./genre_heatmap.ipynb) (source code for custom formatting of the seaborn heatmap plot)
 
 _NOTE: Spotify claims there is more granular genre data per song, but in nearly every example I tried it was an empty array (even for extremely popular songs/artists)._
 ## Motivation
