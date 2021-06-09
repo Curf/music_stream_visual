@@ -32,6 +32,9 @@ _NOTE: Spotify claims there is more granular genre data per song, but in nearly 
   - Search history
   - “inferences” – did not investigate too much but it looks to be tags for a user for advertisements
 ## Final Image
+*IMAGE KEY: Linear time top to bottom, each column is a genre, each row is one day (months on left side), color bar indicates hours of the genre listened on that day.*
+
+
 <img src="https://user-images.githubusercontent.com/26121178/119858361-66b5aa00-bee2-11eb-8349-e5de9cc4a739.jpeg" alt="Heatmap" width="400"/> 
 
 ## Turning Data into Art (i.e. dataisbeautiful)
